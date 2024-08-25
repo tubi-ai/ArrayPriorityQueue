@@ -1,0 +1,17 @@
+package com.company;
+
+public class pq {
+    int [] mypq;
+    int capacity, size;
+    public pq(int capacity){
+        this.capacity=capacity;
+        mypq=new int[capacity];
+        size=0;
+    } public boolean isFull(int capacity){
+        return size == capacity;
+    } public boolean isEmpty(){
+        return size == 0;
+    } public int size(){
+        return size;
+    }
+}
